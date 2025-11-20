@@ -90,7 +90,11 @@ mod tests {
 
     #[test]
     fn test_reference_2() {
-        assert!(longest_palindrome("if i work then everything will be brilliant we keep the bar even if the conversation is not about statics") == "illi");
+        assert!(
+            longest_palindrome(
+                "if i work then everything will be brilliant we keep the bar even if the conversation is not about statics"
+            ) == "illi"
+        );
     }
 
     #[test]
